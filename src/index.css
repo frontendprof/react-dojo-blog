@@ -42,6 +42,15 @@
   padding: 20px;
 }
 
+.condition{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#777474;
+  min-height: 50vh;
+}
+
+
 /* blog previews / list */
 .blog-preview {
   padding: 10px 16px;
