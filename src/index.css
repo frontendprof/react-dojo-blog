@@ -85,13 +85,14 @@
   margin:20px 0;
 }
 
-/* .blog-details button{
+.blog-details button{
   background-color: #f1356d;
   color:#fff;
   padding:8px;
+  border:0;
   border-radius:8px;
   cursor: pointer;
-} */
+}
 
 
 /* create new blog form */
