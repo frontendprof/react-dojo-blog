@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import BlogList from '../BlogList/BlogList'
+import BlogList from './BlogList'
 
 const Home = () => {
 
@@ -19,7 +19,6 @@ const Home = () => {
             return res.json()
         })
         .then(data=>{
-            console.log(data);
             setBlogs(data)
         })
     },[])
